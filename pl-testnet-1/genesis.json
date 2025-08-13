@@ -370,6 +370,25 @@
         }
       ]
     },
+    "flatfees": {
+      "params": {
+        "default_cost": {
+          "denom": "musd",
+          "amount": "1"
+        },
+        "conversion_factor": {
+          "definition_amount": {
+            "denom": "musd",
+            "amount": "1"
+          },
+          "converted_amount": {
+            "denom": "nhash",
+            "amount": "1"
+          }
+        }
+      },
+      "msg_fees": []
+    },
     "genutil": {
       "gen_txs": [
         {
